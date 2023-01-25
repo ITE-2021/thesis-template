@@ -1,0 +1,37 @@
+\documentclass{pwr}
+\addbibresource{demo.bib}
+\begin{document}
+\tableofcontents
+\section{Rozdział}
+\paragraph{Paragraf}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc varius vulputate tellus, quis lobortis erat hendrerit tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis eget arcu libero. Aliquam erat volutpat. Sed venenatis lacinia magna tincidunt sodales. Sed non sollicitudin felis, eu laoreet erat. Proin nulla lacus, lacinia eget metus sit amet, egestas blandit mi. Vestibulum pharetra maximus leo, a consectetur nisi blandit quis.
+\begin{table}[h]
+\caption{Tabela \cite{book}}
+\begin{tabular}{|c | c|}
+\hline 
+d & d \\
+\hline
+\end{tabular}
+\end{table}
+ Suspendisse egestas ut dolor non laoreet. Duis velit enim, lobortis ac feugiat id, rutrum quis purus. Vivamus pharetra elit nec quam fermentum, eu viverra felis porta. Nulla sem nisi, aliquam nec accumsan vel, facilisis vel metus. Suspendisse viverra efficitur lorem. Vivamus molestie.
+ \begin{figure}[h]
+ \centering
+ \includegraphics[width=4cm]{example-image-a}
+ \caption{Pies}
+ \end{figure}
+ lacus pretium lacinia luctus, ipsum nisi bibendum dui, nec faucibus eros ex non velit. Nulla quis efficitur tortor, vel scelerisque eros. Quisque imperdiet leo rhoncus sem dapibus, quis egestas est eleifend. 
+\subsection{Podrozdział}
+test
+\subsubsection{Podpodrozdział}
+\section{Rozdział 2}
+\subsection{pod}
+\subsubsection{podpod}
+\begin{equation}
+2+2=4
+\end{equation}
+\section{Cytaty}
+\cite{online}
+\cite{article}
+\printbibliography[nottype=online]
+\printbibliography[title={Źródła},type=online]
+\end{document}

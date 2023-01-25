@@ -1,5 +1,5 @@
-*.bib
-*.tex
+#*.bib
+#*.tex
 *.jpg
 *.blg
 *.log
